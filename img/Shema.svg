@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1409"
+   height="352"
+   viewBox="0 0 1409 352"
+   fill="none"
+   version="1.1"
+   id="svg60"
+   sodipodi:docname="Shema.svg"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata66">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs64" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1303"
+     inkscape:window-height="480"
+     id="namedview62"
+     showgrid="false"
+     inkscape:zoom="0.23775727"
+     inkscape:cx="704.5"
+     inkscape:cy="176"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg60" />
+  <path
+     d="M351.893 176H0.00292969C0.00292969 78.8007 78.7791 0 175.948 0C273.117 0 351.893 78.8007 351.893 176Z"
+     fill="#48DBFB"
+     id="path2" />
+  <path
+     d="M703.93 176C703.93 273.199 625.158 352 527.985 352C430.811 352 352.04 273.199 352.04 176H703.93Z"
+     fill="#359CEF"
+     id="path4" />
+  <path
+     d="M1055.97 176H704.076C704.076 78.8007 782.852 0 880.021 0C977.19 0 1055.97 78.8007 1055.97 176Z"
+     fill="#657BF5"
+     id="path6" />
+  <path
+     d="M1408 176C1408 273.199 1329.23 352 1232.06 352C1134.88 352 1056.11 273.199 1056.11 176H1408Z"
+     fill="#404ECC"
+     id="path8" />
+  <circle
+     cx="176.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle10" />
+  <circle
+     cx="176.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle12" />
+  <circle
+     cx="176.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle14" />
+  <circle
+     cx="526.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle16" />
+  <circle
+     cx="526.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle18" />
+  <circle
+     cx="526.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle20" />
+  <circle
+     cx="880.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle22" />
+  <circle
+     cx="880.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle24" />
+  <circle
+     cx="880.003"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle26" />
+  <circle
+     cx="1232"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle28" />
+  <circle
+     cx="1232"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle30" />
+  <circle
+     cx="1232"
+     cy="176"
+     r="144"
+     fill="#F4F8FB"
+     id="circle32" />
+  <path
+     d="M198.128 158.713C198.128 173.542 193.545 178.125 177.503 178.125C161.461 178.125 156.878 173.542 156.878 157.5C156.878 141.458 161.461 136.875 177.503 136.875C193.545 136.875 198.128 141.458 198.128 158.713Z"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path34" />
+  <path
+     d="M168.336 159.792V166.667"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path36" />
+  <path
+     d="M177.503 155.208V166.667"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path38" />
+  <path
+     d="M186.67 148.333V166.667"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path40" />
+  <path
+     d="M526.003 178V149"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path44" />
+  <path
+     d="M504.003 143.284C504.003 142.632 504.616 142.155 505.248 142.314L524.524 147.181C525.166 147.344 525.839 147.344 526.482 147.181L545.758 142.314C546.39 142.155 547.003 142.632 547.003 143.284V173.014C547.003 173.93 546.381 174.729 545.493 174.953L526.482 179.753C525.839 179.915 525.166 179.915 524.524 179.753L505.513 174.953C504.625 174.729 504.003 173.93 504.003 173.014V143.284Z"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linejoin="round"
+     id="path46" />
+  <path
+     d="M1247 155.5C1247 162.25 1243.4 168.1 1238 171.025C1238 171.025 1237.44 176.875 1236.88 179.125C1235.75 183.625 1222.25 183.625 1221.13 179.125C1220.56 176.868 1220 171.025 1220 171.025C1214.6 168.1 1211 162.25 1211 155.5C1211 145.6 1219.1 137.5 1229 137.5C1238.9 137.5 1247 145.6 1247 155.5Z"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path48" />
+  <path
+     d="M1235.75 174.625C1230.69 174.625 1229 174.625 1222.25 174.625"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-miterlimit="10"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path50" />
+  <path
+     d="M1230.5 148.75L1224.5 155.5H1233.5L1227.5 162.25"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path52" />
+  <path
+     d="M896.8 169C895.563 181 893.596 183 880.966 183C867.365 183 865.874 180 865.132 169C864.593 161 865.033 159 880.966 159C896.977 159 897.556 161.663 896.8 169Z"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path54" />
+  <path
+     d="M871.003 153H891.003"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path56" />
+  <path
+     d="M877.003 147H885.003"
+     stroke="#353E50"
+     stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     id="path58" />
+</svg>
