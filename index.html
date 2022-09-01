@@ -1,7 +1,7 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sr">
 <head>
     <meta charset="UTF-8">
     <link rel="preload" as="font" href="/fonts/LabGrotesqueDreams-Medium.woff2" type="font/woff2" crossorigin="anonymous">
@@ -39,22 +39,37 @@
         </div>
     </div>
 </div><header class="text-white">
-    <div class="container row pt-0">
-        <div class="col-6 col-md-4 font-weight-bold">
-            <img src="/img/Vector-cloud-native-logo.svg">&nbsp;Cloud Native
+    <div class="position-fixed d-md-none mobileMenu" style="display: none">
+
+        <img src="/img/icons/x-menu.svg" onclick="hideMobileMenu()" class="header-x-menu">
+    </div>
+    <div class="container row py-0 header-topbar">
+        <div class="col-6 col-md-4 font-weight-bold d-flex">
+            <img alt="logo" class="header-logo" src="/img/Vector-cloud-native-logo.svg">&nbsp;<span class="d-none d-md-inline my-auto">Cloud Native</span>
         </div>
-        <div class="col-6 ml-auto my-auto text-right d-none d-md-block">
+        <div class="d-md-block d-none col-6 ml-auto my-auto text-right d-none d-md-block">
                 <a href="#"><span>Pocetak</span></a>&nbsp;
                 <a href="#"><span>O Nama</span></a>&nbsp;
                 <a href="#"><span>Usluge</span></a>&nbsp;
                 <a href="#"><span>Edukacija</span></a>&nbsp;
                 <a href="#"><span>Blog</span></a>&nbsp;
         </div>
-        <a class="col-2 ml-auto special-link d-flex justify-content-center align-items-center p-0" href="#">
+        <a class="col-2 d-none ml-auto special-link d-md-flex justify-content-center align-items-center p-0"
+           href="#">
             <div class="">
                 Kontakt ➜
-            </div></a>
+            </div>
+        </a>
+        <div class="col-6 d-md-none text-right d-flex">
+            <img src="/img/icons/burger-w.svg" onclick="showMobileMenu()" class="header-burger ml-auto my-auto">
+        </div>
     </div>
+    <div class="position-absolute text-black header-lang-select d-none d-md-block light">
+        <a href="/en/"><div class="eng-select d-flex text-center mx-1 mt-1"><span class="m-auto text-black">EN</span></div></a>
+        <a href="/"><div class="srb-select d-flex text-center m-1 opacity-50 "><span class="m-auto text-black">SRB</span></div></a>
+    </div>
+
+
 </header>
 <div class="background-graphics">
 <img src="/img/blob-1.png" alt="blob" id="blob-1">
@@ -76,19 +91,17 @@
         <p class="text-cloud">ŠTA MI RADIMO</p>
         <h2 class="h2 font-weight-bold">Podržavamo kompanije na putu digitalne transformacije i pomažemo da iskoriste pun potencijal cloud tehnologija i unaprede svoje digitalne proizvode.</h2>
         <p>Naša rešenja pokrivaju prenos  znanja, implementaciju i integraciju platformi baziranih na mikroservisima na vrhunskoj tehnologiji virtualizacije, u privatnim, javnim ili hibridnim cloud okruženjima, uz automatizaciju, ML, AI ili DL.</p>
-        <div class="row curves my-5">
-    <div class="col-6 text-right position-relative mb-5">
-        <div class="halfcircle-1 circleTop1 position-absolute"></div>
-        <div class="circleBase-1 position-absolute d-flex">
+        <div class="row my-5">
+    <div class="col-12 col-md-6 mr-md-0 px-0 position-relative">
+        <div class="d-flex mx-auto mr-md-0 arch2TopCircle p-5">
             <div class="text-center my-auto">
                 <h6 class="h6 font-weight-bold">Cloud Native Transformacija</h6>
                 <p class="light">Ako ste na početku ili u sredini cloud native putovanja nudimo pomoć u procesu transformacije profesionalnim uslugama savetovanja u oblastima: zaposleni, procesi i tehnologija.</p>
             </div>
         </div>
     </div>
-    <div class="col-6 text-left position-relative mb-5">
-        <div class="halfcircle-2 circleTop1 position-absolute"></div>
-        <div class="circleBase-2 position-absolute d-flex">
+    <div class="col-12 col-md-6 ml-md-0 px-0 position-relative">
+        <div class="d-flex mx-auto ml-md-0 arch2BotCircle p-5">
             <div class="text-center my-auto">
                 <h6 class="h6 font-weight-bold">Cloud Native Operacije</h6>
                 <p class="light">Ako ste ipak već usvojili prednosti cloud-native pristupa spremni smo da vam ponudimo profesionalne usluge na strateskom i operativnom polju poslovanja. </p>
@@ -471,34 +484,34 @@
     </div>
     <div class="container">
             <div class="row benefit-underline">
-                <div class="col-10 d-flex">
+                <div class="col-8 col-md-10 d-flex">
                     <p class="my-auto">Unapređenje kvaliteta aplikacija i brzine testiranja</p>
                 </div>
-                <div class="col-2 big-font">
+                <div class="col-4 col-md-2 big-font">
                     78%
                 </div>
             </div>
             <div class="row benefit-underline">
-                <div class="col-10 d-flex">
+                <div class="col-8 col-md-10 d-flex">
                     <p class="my-auto">Veća brzina odgovora na zahteve klijenata i nastupa na tržištu</p>
                 </div>
-                <div class="col-2 big-font">
+                <div class="col-4 col-md-2 big-font">
                     76%
                 </div>
             </div>
             <div class="row benefit-underline">
-                <div class="col-10 d-flex">
+                <div class="col-8 col-md-10 d-flex">
                     <p class="my-auto">Manji operativni troskovi na period od 5 godina</p>
                 </div>
-                <div class="col-2 big-font">
+                <div class="col-4 col-md-2 big-font">
                     54%
                 </div>
             </div>
             <div class="row benefit-underline">
-                <div class="col-10 d-flex">
+                <div class="col-8 col-md-10 d-flex">
                     <p class="my-auto">Manje zastoja i prekida u radu aplikacija i servisa </p>
                 </div>
-                <div class="col-2 big-font">
+                <div class="col-4 col-md-2 big-font">
                     70%
                 </div>
             </div>
