@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="320"
+   height="320"
+   viewBox="0 0 320 320"
+   version="1.1"
+   id="svg10"
+   sodipodi:docname="arch4TC3.svg"
+   style="fill:none"
+   inkscape:version="0.92.5 (2060ec1f9f, 2020-04-08)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1053"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="0.7375"
+     inkscape:cx="-61.28814"
+     inkscape:cy="153.22034"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <path
+     d="M 320.07617,160.0632 H 0.0761719 C 0.0761719,71.665297 71.713255,0 160.07609,0 248.4392,0 320.07617,71.665297 320.07617,160.0632 Z"
+     id="path2"
+     inkscape:connector-curvature="0"
+     style="fill:#657bf5;stroke-width:0.9094128" />
+  <ellipse
+     cx="160.05972"
+     cy="160.0632"
+     id="circle4"
+     style="fill:#f4f8fb;stroke-width:0.9094128"
+     rx="130.95007"
+     ry="130.9608" />
+  <ellipse
+     cx="160.05972"
+     cy="160.0632"
+     id="circle6"
+     style="fill:#f4f8fb;stroke-width:0.9094128"
+     rx="130.95007"
+     ry="130.9608" />
+  <ellipse
+     cx="160.05972"
+     cy="160.0632"
+     id="circle8"
+     style="fill:#f4f8fb;stroke-width:0.9094128"
+     rx="130.95007"
+     ry="130.9608" />
+</svg>
