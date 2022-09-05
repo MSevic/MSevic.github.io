@@ -39,22 +39,54 @@
         </div>
     </div>
 </div><header class="text-white">
-    <div class="position-fixed d-md-none mobileMenu" style="display: none">
+    <div class="container position-fixed d-md-none mobileMenu py-0" style="display: none">
+        <div class="row">
+            <div class="col-6"><img alt="logo" class="header-logo-mobile p-2" src="/img/Vector-cloud-native-logo.svg"></div>
+            <div class="col-6 text-right d-flex">
+                <img src="/img/icons/x-menu.svg" onclick="hideMobileMenu()" class="header-x-menu ml-auto my-auto">
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-4"></div>
+            <div class="col-8">
+                <nav class="h3 font-weight-bold ">
+                </nav>
+            </div>
+        </div>
+        <div class="d-flex">
+            <div class="mx-auto d-flex">
+                <a href="/en/">
+                    <spann class="eng-select-mobile d-flex mb-1 text-center"><span class="m-auto text-black">EN</span>
+                    </spann>
+                </a>
+                <a href="/">
+                    <span class="srb-select-mobile d-flex mt-1 text-center filter-gray">
+                        <span class="m-auto text-black flip">SRB</span>
+                    </span>
+                </a>
+            </div>
+        </div>
+        <div class="position-absolute special-link-mobile">
+            <div class="special-link p-5 mx-auto">
+                <a class=""
+                   href="#">
+                    <div class="">
+                        Kontakt ➜
+                    </div>
+                </a>
+            </div>
+        </div>
 
-        <img src="/img/icons/x-menu.svg" onclick="hideMobileMenu()" class="header-x-menu">
     </div>
     <div class="container row py-0 header-topbar">
         <div class="col-6 col-md-4 font-weight-bold d-flex d-md-none">
-            <img alt="logo" class="header-logo-mobile p-2" src="/img/Vector-cloud-native-logo.svg">&nbsp;<span class="d-none d-md-inline my-auto">Cloud Native</span>
+            <img alt="logo" class="header-logo-mobile p-2" src="/img/Vector-cloud-native-logo.svg">&nbsp;<span
+                class="d-none d-md-inline my-auto">Cloud Native</span>
         </div>
         <div class="col-6 col-md-4 font-weight-bold d-none d-md-flex">
             <img alt="logo" class="header-logo p-2" src="/img/cloud-native-logo.svg">
         </div>
         <div class="d-md-block d-none col-5 ml-auto my-auto text-right d-none d-md-block">
-                <a href="#" class="pl-1"><span>O Nama</span></a>
-                <a href="#" class="pl-1"><span>Usluge</span></a>
-                <a href="#" class="pl-1"><span>Edukacija</span></a>
-                <a href="#" class="pl-1"><span>Blog</span></a>
         </div>
         <a class="col-2 d-none ml-0 special-link d-md-flex justify-content-center align-items-center p-0"
            href="#">
@@ -67,8 +99,12 @@
         </div>
     </div>
     <div class="position-absolute text-black header-lang-select d-none d-md-block light">
-        <a href="/en/"><div class="eng-select d-flex text-center mx-1 mt-1"><span class="m-auto text-black">EN</span></div></a>
-        <a href="/"><div class="srb-select d-flex text-center m-1 opacity-50 "><span class="m-auto text-black">SRB</span></div></a>
+        <a href="/en/">
+            <div class="eng-select d-flex text-center mx-1 mt-1"><span class="m-auto text-black">EN</span></div>
+        </a>
+        <a href="/">
+            <div class="srb-select d-flex text-center m-1 opacity-50 "><span class="m-auto text-black">SRB</span></div>
+        </a>
     </div>
 
 
@@ -91,7 +127,7 @@
 <section>
     <div class="container text-center">
         <p class="text-cloud">ŠTA MI RADIMO</p>
-        <h2 class="h2 font-weight-bold">Podržavamo kompanije na putu digitalne transformacije i pomažemo da iskoriste pun potencijal cloud tehnologija i unaprede svoje digitalne proizvode.</h2>
+        <h2 class="h2 font-weight-bold">Podržavamo kompanije na putu digitalne transformacije  u cilju  da iskoriste  potencijal cloud tehnologija i unaprede svoje digitalne proizvode.</h2>
         <p>Naša rešenja pokrivaju prenos  znanja, implementaciju i integraciju platformi baziranih na mikroservisima na vrhunskoj tehnologiji virtualizacije, u privatnim, javnim ili hibridnim cloud okruženjima, uz automatizaciju, ML, AI ili DL.</p>
         <style>
     .arch2TC {
@@ -110,7 +146,7 @@
             <img src="/img/bg/arch2top.svg" class="w-100 h-auto">
             <div class="text-center arch2TC p-0">
                 <h6 class="h6 font-weight-bold">Cloud Native Transformacija</h6>
-                <p class="light">Ako ste na početku ili u sredini cloud native putovanja nudimo pomoć u procesu transformacije profesionalnim uslugama savetovanja u oblastima: zaposleni, procesi i tehnologija.</p>
+                <p class="light">Podržavamo kompanije na putu digitalne transformacije  u cilju  da iskoriste  potencijal cloud tehnologija i unaprede svoje digitalne proizvode. </p>
             </div>
         </div>
     </div>
@@ -119,7 +155,7 @@
             <img src="/img/bg/arch2bot.svg" class="w-100 h-auto">
             <div class="text-center arch2TC p-0">
                 <h6 class="h6 font-weight-bold">Cloud Native Operacije</h6>
-                <p class="light">Ako ste ipak već usvojili prednosti cloud-native pristupa spremni smo da vam ponudimo profesionalne usluge na strateskom i operativnom polju poslovanja. </p>
+                <p class="light">Ako ste ipak već usvojili prednosti cloud-native pristupa spremni smo da vam ponudimo profesionalne usluge na strateskom i operativnom polju poslovanja.</p>
             </div>
         </div>
     </div>
@@ -128,149 +164,138 @@
         <h2 class="h2 font-weight-bold">Još uvek niste sigurni što radimo?</h2>
         <p>Moderne kompanije moraju da budu agilna i uvek spremne da brzo rastu. Njihov skup veština mora da bude raznolik i moćan, tako da mogu da izgrade i podrže portfolio aplikacija, usluga i infrastrukture sa najboljom bezbednošću i skalabilnošću.</p>
     </div>
-</section><section>
+</section><section class="position-relative potraga-main potraga-transparent">
+    <img src="" alt="pale background logo" class="position-absolute potraga-img d-none">
     <div class="container">
-        <div class="row">
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
+        <p class="text-cloud"></p>
+        <div class="col-12 pl-0">
+            <h3 class="h3 font-weight-bold"></h3>
+        </div>
+        <div class="col-12 pl-0">
+            <p></p>
+        </div>
+    </div>
+    <div class="container mb-5">
+        <div class="row potraga-card-row">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
-                                <div class="text-cloud">01</div>
-                                <h4 class="h4 font-weight-bold">Implementacija</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/discovery.svg">
+                                <div>01</div>
+                                <h4 class="h4 font-weight-bold">Kubernetes implementacija</h4>
                             </div>
                         </div>
                         <p>
-                            Savetujemo vam najbolju strategiju i pristup implementaciji, prateći fokus vašeg budućeg širenja poslovanja. Zajedno planiramo, razvijamo i implementiramo vašu serversku i mrežnu infrastrukturu, i postavljamo sisteme za praćenje kako bismo vam pomogli da održite zadovoljavajući nivo usluge i efikasno skalirate svoje sisteme čak i u vremenima najvećeg rasta.  Od samog početka prenosimo znanje na vaš tim (svi nivoi i uloge), sa perspektivom da će vaša organizacija sama moći da održava i razvija vašu platformu.
+                            Pružamo vam profesionalne usluge oko Kubernetes-a. Savetujemo vam najbolju strategiju i pristup implementaciji, vaše Kubernetes platforme. Zajedno planiramo, pripremamo implementiramo vašu serversku i mrežnu infrastrukturu, i postavljamo sisteme za praćenje i nadzor, kako bismo vam pomogli da održite zadovoljavajući nivo usluge i efikasno skalirate svoju Kubernetes platformu i u periodima najvećeg rasta opterećenja. Naši inženjeri vam pomažu da smanjite troškove infrastrukture i postignete visoku dostupnost za kritične poslovne aplikacije.
                         </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
+                        <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
+                            <a href="/kontakt">Pročitaj više</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
-                                <div class="text-cloud">02</div>
-                                <h4 class="h4 font-weight-bold">Operacije</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/report.svg">
+                                <div>02</div>
+                                <h4 class="h4 font-weight-bold">Kubernetes operacije</h4>
                             </div>
                         </div>
                         <p>
-                            Kao vrhunski eksperti spremni smo da preuzmemo odgovornost nad operativnim zadacima vaše nove platforme kao eksterni tim ili deo tima vaše kompanije. Naš i vaš uspeh zavise od dubokog i sveobuhvatnog znanja u različitim segmentima IT planiranja, analize, implementacije i održavanja. Ponosni smo na brojne certifikate koje poseduju članovi našeg tima. Većina njih su i certificirani treneri, koji novim generacijama i svim našim klijentima pružaju obuku zasnovanu na znanju i iskustvu u operativnom upravljanju platformama.
+                            Nudimo proaktivan pristup upravljanju vašom Kubernetes platformom. Naš tim inženjera je uključen u svaki aspekt svakodnevnih operacija vaše platforme, od složenog rešavanja problema i bezbednosnih i sistemskih zakrpa do rutinskih ažuriranja. Uz stalno praćenje platforme i pristup sertifikovanim Kubernetes stručnjacima, možete da rasteretite svoj tim Kubernetes operacija i da se fokusirate na druge poslovne prioritete.
                         </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
+                        <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
+                            <a href="/kontakt">Kontakt</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
-                                <div class="text-cloud">03</div>
-                                <h4 class="h4 font-weight-bold">Konsalting</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/book.svg">
+                                <div>03</div>
+                                <h4 class="h4 font-weight-bold">DevOps kao usluga</h4>
                             </div>
                         </div>
                         <p>
-                            Kompanijama koje se odluče za konsultante u procesu cloud native transformacije pomažemo profesionalnim uslugama naše mreže eksperata iz različitih oblasti IT poslovanja. Volimo da preuzimamo nove izazove i ponovo razmišljamo o svim vašim budućim scenarijima kako bismo predvideli vaše buduće potrebe i mogućnosti. Optimizujemo finansijske troškove, dok gradimo vašu buduću platformu imajući na umu proširivost, skalabilnost i modularnost.
+                            Kompanijama nudimo partnerski oblik saradnje na polju DevOps transformacije ili operacija. Nudimo stručne savete i podršku na nivou kompanije u implementaciji continuous integration/delivery (CI/CD) cevovoda - pipeline.<br/><br/>Pružamo i DevOps kao uslugu za automatizaciju procesa od početka do kraja vašeg CI/CD cevovoda sa fokusom na skalabilnost i bezbednost. Naši CI/CD konsultanti i programeri pomažu u dizajniranju i postavljanju brzih i pouzdanih CI/CD cevovoda ili poboljšanju performansi i otpornosti vašeg sistema pomoću Kubernetes-a.
                         </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
+                        <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
+                            <a href="/kontakt">Kontakt</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
+                <div class="col-12 col-lg-6 mb-5">
+                    <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
-                                <div class="text-cloud">04</div>
-                                <h4 class="h4 font-weight-bold">Edukacija</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/pen.svg">
+                                <div>04</div>
+                                <h4 class="h4 font-weight-bold">Modernizacija aplikacija</h4>
                             </div>
                         </div>
                         <p>
-                            Verujemo da su ljudi – zaposleni, studenti, pa čak i entuzijasti u zajednici oko svakog proizvoda ili usluge – najvrednija imovina te organizacije. Veštine i znanja koja su stekli i poseduju ovi pojedinci direktno se pretvaraju u sopstveni uspeh, ali i poslovni uspeh organizacije u kojoj učestvuju.  Naši visoko obučeni treneri sa iskustvom na terenu pružaju obuku i ispite sertifikovane od strane proizvođača Red Hat.
+                            Nadogradite svoje zastarele aplikacije pomoću naše stručne pomoći da biste imali koristi od neuporedive skalabilnosti i pouzdanosti koju nudi Kubernetes platforma. Naše usluge migracije aplikacija pomažu kompanijama da transformišu korisničko iskustvo i generišu nove prihode uz razvoj zasnovan na cloud-native tehologijama.<br/><br/>Usluge oko migracije aplikacija u cloud omogućavaju kompanijama da izgrade produkciono okruženje u oblaku, pronađu nove načine za rešavanje poslovnih potreba, poboljšaju postojeće usluge i povećaju lojalnost kupaca. Mi ćemo vam pomoći da rešite sve probleme u vezi sa razvojem, konfigurisanjem i primenom aplikacija koje su cloud-native, istovremeno omogućavajući Vam nadgledanje i bezbednost.
                         </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
-                        <div class="row mb-2">
-                            <div class="col-8 text-left p-0">
-                                <div class="text-cloud">05</div>
-                                <h4 class="h4 font-weight-bold">Specijalizovane usluge</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/dot.svg">
-                            </div>
-                        </div>
-                        <p>
-                            Za kompanije sa specifičnim potrebama, naš tim pruža skup specijalizovanih, nišinih usluga po zahtevu, u rasponu od bezbednosnih revizija i analiza do brzih migracija, kontejnerizacije, nadogradnje sistema za skladištenje podataka, SSO integracija i drugih specifičnih zadataka. 
-                        </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 m-0 p-2">
-                    <div class="cards2x2-card p-4 position-relative">
-                        <img class="cards2x2-cool-logo" src="/img/pale-logo.svg">
-                        <div class="row mb-2">
-                            <div class="col-8 text-left p-0">
-                                <div class="text-cloud">06</div>
-                                <h4 class="h4 font-weight-bold">Licence</h4>
-                            </div>
-                            <div class="col-4 text-right p-0">
-                                <img class="icon" src="/img/icons/gem.svg">
-                            </div>
-                        </div>
-                        <p>
-                            Nudimo naše usluge kao potpuni IT inženjerski partner – ili možemo da radimo sa vašim internim timovima da bismo im obezbedili alate, veštine i kapacitete za postizanje vaših specifičnih ciljeva.
-                        </p>
-                        <div class="text-right cards2x2-more pb-4 pr-5">
-                            <a href="#">Pročitaj više →</a>
+                        <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
+                            <a href="/kontakt">Kontakt</a>
                         </div>
                     </div>
                 </div>
         </div>
     </div>
-</section><section>
+</section><section class="small-section">
+    <div class="container magic-glow text-center p-5 my-5">
+        <h2>Ubrzajte usvajanje tehologije za orkestraciju</h2>
+        <p class="font-weight-bold">Molimo vas da u polje unesete Vašu email adresu, odgovoramo u najkraćem mogućem roku</p>
+        <div class="form-inline text-center">
+            <form id="razgovor-signup-form-1" class="w-100">
+                <input name="email" id="razgovor-email-1" required type="email"
+                       placeholder="Vaša E-mail adresa" class="form-control razgovor-email-input ml-auto mr-2">
+                <input type="submit" value="Pošalji →" class="form-control mr-auto razgovor-submit-input">
+            </form>
+        </div>
+    </div>
+    <script>
+        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:5000&#x2F;razgovor"
+                $("#razgovor-signup-form-1").on("submit", function (event) {
+                    event.preventDefault()
+                    let email = $("#razgovor-email").val()
+                    $.ajax({
+                        url: journeySignupFormUrl,
+                        method: "POST",
+                        crossdomain: true,
+                        dataType: "json",
+                        data: {
+                            "email": email
+                        },
+                        success: function (data, status) {
+                            console.log(data, status)
+                        },
+                        error: function (data, status) {
+                            console.error(data, status)
+                        }
+                    });
+                });
+    </script>
+</section>
+<section>
     <div class="container">
         <p class="text-cloud">KAKO PRISTUPAMO PROJEKTU?</p>
         <div class="row mx-0">
             <div class="col-12 col-md-7 pl-0">
-                <h3 class="h3 font-weight-bold">Vaša početna tačka i konačna destinacija cloud-native putovanja biće jedinstveni u skladu sa vašom poslovnom vizijom i poslovnim kapacitetima.</h3>
+                <h3 class="h3 font-weight-bold">Vaša početna tačka i konačna destinacija cloud-native putovanja biće jedinstveni u skladu sa vašom poslovnom vizijom i  kapacitetima.</h3>
             </div>
             <div class="col-12 col-md-5 pl-0">
                 <p>Mi predlažemo pristup transformaciji kroz modernizaciju, fokusiramo se na razumevanje vašeg trenutnog portfolia usluga, trenutne pozcije na tržištu i ambicija u budućnosti.</p>
             </div>
         </div>
-        <div class="row my-5">
+        <div class="row mt-5">
     <div class="col-6 col-md-3 mr-md-0 px-0 position-relative">
         <div class="p-0 position-relative">
             <img src="/img/bg/arch4TC1.svg" class="w-100 h-auto">
             <div class="text-center arch4TC p-5">
                 <img src="/img/icons/graph.svg" alt="graph icon">
-                <h6 class="h6 font-weight-bold">Analiza</h6>
+                <h5 class="h5 font-weight-bold arch4TC-title-1">Analiza</h5>
             </div>
         </div>
         <div class="d-none d-md-block mt-2 p-2">
@@ -282,7 +307,7 @@
             <img src="/img/bg/arch4TC2.svg" class="w-100 h-auto">
             <div class="text-center arch4TC">
                 <img src="/img/icons/book2.svg" alt="graph icon">
-                <h6 class="h6 font-weight-bold">Edukacija</h6>
+                <h5 class="h5 font-weight-bold arch4TC-title-2">Edukacija</h5>
             </div>
         </div>
         <div class="d-none d-md-block mt-2 p-2">
@@ -294,11 +319,11 @@
             <img src="/img/bg/arch4TC3.svg" class="w-100 h-auto">
             <div class="text-center arch4TC">
                 <img src="/img/icons/boat.svg" alt="graph icon">
-                <h6 class="h6 font-weight-bold">Implementacija</h6>
+                <h5 class="h5 font-weight-bold arch4TC-title-3">Implementacija</h5>
             </div>
         </div>
         <div class="d-none d-md-block mt-2 p-2">
-            <p>Ovo je faza kada imamo dovoljno znanja da se upustimo u implementaciju platforme na vašem okruženju. </p>
+            <p>Ovo je faza kada imamo dovoljno znanja da se upustimo u implementaciju platforme na vašem okruženju.</p>
         </div>
     </div>
     <div class="col-6 col-md-3 mr-md-0 px-0 position-relative">
@@ -306,7 +331,7 @@
             <img src="/img/bg/arch4TC4.svg" class="w-100 h-auto">
             <div class="text-center arch4TC">
                 <img src="/img/icons/bulb.svg" alt="graph icon">
-                <h6 class="h6 font-weight-bold">Podrška</h6>
+                <h5 class="h5 font-weight-bold arch4TC-title-4">Podrška</h5>
             </div>
         </div>
         <div class="d-none d-md-block mt-2 p-2">
@@ -316,6 +341,67 @@
 </div>
 
 
+    </div>
+</section><section class="small-section">
+    <div class="container blog-top-container">
+        <p class="text-cloud">NAŠA PARTNERSTVA</p>
+        <div class="row">
+            <div class="col-12 col-md-10 pl-0">
+                <h3 class="h3 font-weight-bold">Strateška partnerstva sa fokusom na cloud-native tehologije</h3>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+                <div class="col-12 col-lg-4">
+                    <div class="partners-card p-5 position-relative">
+                        <div class="row mb-4">
+                            <div class="col-8 text-left p-0 partners-title-logo">
+                                <img class="h-100" src="/img/logo/rhos.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="">
+                            U bliskom odnosu sa prozivođačem tehologije Red Hat gradimo duboku expertizu na polju OpenShift proizvoda za orkestraciju kontejenra, OpenShift je nadograđena enterprise verzija Kubernetes platforme sa dodatnim alatima koji pomažu kompanijama u procesu cloud-native transformacije.
+                        </p>
+                        <div class="d-none text-left partners-more mt-auto pb-4 pr-5 position-absolute">
+                            <p class="partners-more-1 m-0">John Doe</p>
+                            <p>General Manager, Visa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="partners-card p-5 position-relative">
+                        <div class="row mb-4">
+                            <div class="col-8 text-left p-0 partners-title-logo">
+                                <img class="h-100" src="/img/logo/ibm.png" alt="">
+                            </div>
+                        </div>
+                        <p class="">
+                            Posedujemo veliko iskustvo u dizajnu i implementaciji IBM Cloud Paks proizvoda baziranih na kontejenrima i mikroservisnoj arhitekturi koje razvija kompanija IBM.  OpenShift je izabrana platforma za Cloud Pak proizvode koji imaju za cilj da pomogunu komponijam u procesu modernizacije aplikacija.
+                        </p>
+                        <div class="d-none text-left partners-more mt-auto pb-4 pr-5 position-absolute">
+                            <p class="partners-more-1 m-0">John Doe</p>
+                            <p>General Manager, Visa</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="partners-card p-5 position-relative">
+                        <div class="row mb-4">
+                            <div class="col-8 text-left p-0 partners-title-logo">
+                                <img class="h-100" src="/img/logo/suse.svg" alt="">
+                            </div>
+                        </div>
+                        <p class="">
+                            SUSE Rancher je prepoznat od na tržištu kao  pouzdana platforme za orkestraciju kontejenra koja donosi pojednostavljene operacije koje su  centralizovane i administratori mogu da se bave svim aspektima operacija, ukljulujući centralno mesto za definisanje bezbednosti 
+                        </p>
+                        <div class="d-none text-left partners-more mt-auto pb-4 pr-5 position-absolute">
+                            <p class="partners-more-1 m-0">John Doe</p>
+                            <p>General Manager, Visa</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
     </div>
 </section><section class="small-section">
     <div class="container journey-signup-container position-relative my-5">
@@ -333,90 +419,36 @@
             </ul>
         <div class="row px-3 py-4">
             <div class="col-12 col-md-7 my-auto pl-4">
-                <h2 class="h2 font-weight-bold">Da biste se odvažili i krenuli putem sertifikovanih Red Hat OpenShift treninga, osmislili smo Cloud Native Openshift Journey koji je podeljen u nekoliko radionica koje se održavaju svakog meseca.</h2>
+                <h2 class="h2 font-weight-bold">Prijavite se i naučite kako da pravite i pokrećete aplikacije u cloud-native okruženju, kroz seriju od 4 besplatne praktične radionice bazirane na Red Hat OpenShift platformi.</h2>
             </div>
             <div class="col-12 col-md-5 my-auto py-4">
                 <form class="p-4 h-100 rounded light" id="journey-signup-form">
                     <label class="h6 mb-3 font-weight-bold">Prijavite se</label>
-                    <input type="text" class="form-control mb-3 p-2" placeholder="Ime i Prezime">
-                    <input type="email" class="form-control mb-4 p-2" placeholder="Email">
+                    <input type="text" name="journey-name" id="journey-name" required class="form-control mb-3 p-2" placeholder="Ime i Prezime">
+                    <input type="email" name="journey-email" id="journey-email" required class="form-control mb-4 p-2" placeholder="Email">
                     <input type="submit" class="form-control blue-gradient mt-2 text-white" value="Prijava →">
                 </form>
                 <script>
-                    var journeySignupFormUrl = someUrl
+                    var journeySignupFormUrl = "http://localhost:5000/trening"
                 </script>
             </div>
         </div>
     </div>
 </section>
-<section class="small-section">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-4">
-                <h2 class="h2 font-weight-bold">
-                    Red Hat OpenShift Usluge
-                </h2>
-            </div>
-            <div class="col-12 col-md-8">
-                <p>Imamo tim profesionalaca posvećen implementaciji edukaciji i upravljanju OpenShift klasterima sertifikovanim od strane Red Hat-a, kako bismo osigurali kvalitet i kontinuitet rada infrastrukture naših klijenata.</p>
-            </div>
-        </div>
-        <div class="row">
-                <div class="col-12 col-lg-4 m-0 p-2">
-                    <div class="usluge-card p-5 position-relative">
-                        <div class="row mb-2">
-                            <div class="col-12 text-left p-0">
-                                <div class="text-cloud light">01</div>
-                                <h4 class="h5 font-weight-bold text-white">OpenShift Edukacija</h4>
-                            </div>
-                        </div>
-                        <p class="text-gray light">
-                            Naš glavni prioritet je da obezbedimo da vaša kompanija ima ono što joj je potrebno da postigne svoje ciljeve za vaša multi-cloud okruženja. Naši OpenShift eksperti kroz seriju radionica sa vašim timovima rade na prenosu znanja i definisanju prave strategije. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 m-0 p-2">
-                    <div class="usluge-card p-5 position-relative">
-                        <div class="row mb-2">
-                            <div class="col-12 text-left p-0">
-                                <div class="text-cloud light">02</div>
-                                <h4 class="h5 font-weight-bold text-white">OpenShift Migracija</h4>
-                            </div>
-                        </div>
-                        <p class="text-gray light">
-                            Ako vaša kompanija koristi OpenShift u lokalnom okruženju i želite da migrirate deo aplikacija u bilo koji od javnih oblaka, naše usluge migracije OpenShifta će vam pomoći da procenite složenost izvornog okruženja i obezbedite bezbednu migraciju. 
-                        </p>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4 m-0 p-2">
-                    <div class="usluge-card p-5 position-relative">
-                        <div class="row mb-2">
-                            <div class="col-12 text-left p-0">
-                                <div class="text-cloud light">03</div>
-                                <h4 class="h5 font-weight-bold text-white">OpenShift Održavanje</h4>
-                            </div>
-                        </div>
-                        <p class="text-gray light">
-                            Bilo da se radi o klasteru u vašem privatnom cloud okruženju ili u javnom cloud-u, mi brinemo o vašim OpenShift klasterima, vodeći računa o nadgledanju, ažuriranju i celokupnom životnom ciklusu infrastrukture, sa našim OpenShift sertifikovanim tehničkim timom.
-                        </p>
-                    </div>
-                </div>
-        </div>
-    </div>
-</section><section class="position-relative potraga-main">
-    <img src="/img/pale-logo.svg" alt="pale background logo" class="position-absolute potraga-img">
+<section class="position-relative potraga-main ">
+    <img src="/img/pale-logo.svg" alt="pale background logo" class="position-absolute potraga-img ">
     <div class="container">
         <p class="text-cloud">ZA ČIM TRAGAMO?</p>
         <div class="col-12 pl-0">
-            <h3 class="h3 font-weight-bold">Tražimo talente u različitim oblastima koje zanimaju nove tehnologije, nije nam važno iz kog sveta dolazite.</h3>
+            <h3 class="h3 font-weight-bold">Tražimo talente u različitim oblastima koje zanimaju nove tehnologije.</h3>
         </div>
         <div class="col-12 pl-0">
-            <p>Ako ste spremni ste da sa nama transformišete neke od najvećih kompanija - pridružite nam se da se razvijate i rastete sa nama.</p>
+            <p>Ako ste spremni ste da sa nama transformišete neke od najvećih kompanija - pridružite nam se da se razvijate i rastete sa nama. </p>
         </div>
     </div>
     <div class="container mb-5">
         <div class="row potraga-card-row">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 mb-5">
                     <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
@@ -425,14 +457,14 @@
                             </div>
                         </div>
                         <p>
-                            Uvek smo u potrazi za kvalitetnim saradnicima i novim kolegama. Aktivno gradimo tim i mrežu visokokvalifikovanih stručnjaka u različitim oblastima angažovanja u oblasti DevOps pozicija.<br/><br/>Svojim zaposlenima nudimo mogućnost da rade na izazovnim projektima sa najnovijim tehnologijama za globalne kompanije visokog profila.
+                            Uvek smo u potrazi za kvalitetnim saradnicima i novim kolegama. Aktivno gradimo tim i mrežu visokokvalifikovanih stručnjaka u različitim oblastima angažovanja u oblasti DevOps pozicija. <br/><br/>Svojim zaposlenima nudimo mogućnost da rade na izazovnim projektima sa najnovijim tehnologijama za globalne kompanije visokog profila.
                         </p>
                         <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
                             <a href="/kontakt">Kontakt</a>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 mb-5">
                     <div class="potraga-card p-5 mx-4 position-relative">
                         <div class="row mb-2">
                             <div class="col-8 text-left p-0">
@@ -441,7 +473,7 @@
                             </div>
                         </div>
                         <p>
-                            Nudimo sjajnu priliku za razvoj karijere svim entuzijastima koji imaju na raspolaganju slobodnog vremena da se pridruže našem DevOps razvojnom centru. Tokom programa u trajanju od dva meseca polaznici imaju priliku da sa našim timovima uče o našim projektima i novim tehnologijama u stimulativnom okruženju.<br/><br/>Program uključuje dizajn projekta, razvojni tok, metodologije i implementaciju. Na kraju programa polaznicima je omogućeno da se sertifikuju i priključe našoj mreži saradnika.
+                            Nudimo sjajnu priliku za razvoj karijere svim entuzijastima koji imaju na raspolaganju slobodnog vremena da se pridruže našem DevOps razvojnom centru. Tokom programa u trajanju od dva meseca polaznici imaju priliku da sa našim timovima uče o našim projektima i novim tehnologijama u stimulativnom okruženju. <br/><br/>Program uključuje dizajn projekta, razvojni tok, metodologije i implementaciju. Na kraju programa polaznicima je omogućeno da se sertifikuju i priključe našoj mreži saradnika.
                         </p>
                         <div class="text-left potraga-more mt-auto pb-4 pr-5 position-absolute">
                             <a href="/kontakt">Kontakt</a>
@@ -451,16 +483,6 @@
         </div>
     </div>
 </section><section class="small-section">
-    <div class="container magic-glow text-center p-5 my-5">
-        <h2>Spremni za prvi razgovor?</h2>
-        <p class="font-weight-bold">Molimo vas da u polje unesete Vašu email adresu, odgovoramo u najkraćem mogućem roku</p>
-        <div class="form-inline text-center">
-            <input type="email" placeholder="Vaša E-mail adresa" class="form-control ml-auto">
-            <input type="submit" value="Pošalji →" class="form-control mr-auto">
-        </div>
-    </div>
-</section>
-<section class="small-section">
     <div class="container blog-top-container">
         <p class="text-cloud">INTERESTED IN..</p>
         <div class="row">
@@ -535,118 +557,7 @@
             </div>
     </div>
 </section>
-<section>
-    <div class="container blog-top-container">
-        <p class="text-cloud">BENEFITI CLOUD NATIVE PRISTUPA</p>
-        <div class="row">
-            <div class="col-12 col-md-10 pl-0">
-                <h3 class="h3 font-weight-bold">Brzina kojom kompanija može da osmisli, razvije i isporuči veću vrednost svojim klijentima je od presudnog je značaja u digitalnom svetu koji se brzo menja.</h3>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-            <div class="row benefit-underline">
-                <div class="col-8 col-md-10 d-flex">
-                    <p class="my-auto">Unapređenje kvaliteta aplikacija i brzine testiranja</p>
-                </div>
-                <div class="col-4 col-md-2 big-font">
-                    78%
-                </div>
-            </div>
-            <div class="row benefit-underline">
-                <div class="col-8 col-md-10 d-flex">
-                    <p class="my-auto">Veća brzina odgovora na zahteve klijenata i nastupa na tržištu</p>
-                </div>
-                <div class="col-4 col-md-2 big-font">
-                    76%
-                </div>
-            </div>
-            <div class="row benefit-underline">
-                <div class="col-8 col-md-10 d-flex">
-                    <p class="my-auto">Manji operativni troskovi na period od 5 godina</p>
-                </div>
-                <div class="col-4 col-md-2 big-font">
-                    54%
-                </div>
-            </div>
-            <div class="row benefit-underline">
-                <div class="col-8 col-md-10 d-flex">
-                    <p class="my-auto">Manje zastoja i prekida u radu aplikacija i servisa </p>
-                </div>
-                <div class="col-4 col-md-2 big-font">
-                    70%
-                </div>
-            </div>
-    </div>
-    <div class="container">
-        <div class="separator light">
-            <div>
-                Izvor: Containers in the enterprise &nbsp;<a href="https://www.ibm.com/downloads/cas/VG8KRPRM" class="text-cloud">https://www.ibm.com/downloads/cas/VG8KRPRM</a>
-            </div>
-        </div>
-    </div>
-</section><section class="small-section">
-    <div class="container blog-top-container">
-        <p class="text-cloud">OUR CLIENTS</p>
-        <div class="row">
-            <div class="col-12 col-md-10 pl-0">
-                <h3 class="h3 font-weight-bold">We are proud to work with those awesome companies</h3>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="row">
-                <div class="col-12 col-lg-4">
-                    <div class="partners-card p-5 position-relative">
-                        <div class="row mb-4">
-                            <div class="col-8 text-left p-0 partners-title-logo">
-                                <img class="h-100" src="/img/logo/rhos.svg" alt="">
-                            </div>
-                        </div>
-                        <p class="mb-5">
-                            Nudimo sjajnu priliku za razvoj karijere svim entuzijastima koji imaju na raspolaganju slobodnog vremena da se pridruže našem DevOps razvojnom centru. Tokom programa u trajanju od dva meseca polaznici imaju priliku da sa našim timovima
-                        </p>
-                        <div class="text-left partners-more mt-auto pb-4 pr-5 position-absolute">
-                            <p class="partners-more-1 m-0">John Doe</p>
-                            <p>General Manager, Visa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="partners-card p-5 position-relative">
-                        <div class="row mb-4">
-                            <div class="col-8 text-left p-0 partners-title-logo">
-                                <img class="h-100" src="/img/logo/ibm.png" alt="">
-                            </div>
-                        </div>
-                        <p class="mb-5">
-                            Nudimo sjajnu priliku za razvoj karijere svim entuzijastima koji imaju na raspolaganju slobodnog vremena da se pridruže našem DevOps razvojnom centru. Tokom programa u trajanju od dva meseca polaznici imaju priliku da sa našim timovima
-                        </p>
-                        <div class="text-left partners-more mt-auto pb-4 pr-5 position-absolute">
-                            <p class="partners-more-1 m-0">John Doe</p>
-                            <p>General Manager, Visa</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-lg-4">
-                    <div class="partners-card p-5 position-relative">
-                        <div class="row mb-4">
-                            <div class="col-8 text-left p-0 partners-title-logo">
-                                <img class="h-100" src="/img/logo/suse.svg" alt="">
-                            </div>
-                        </div>
-                        <p class="mb-5">
-                            Nudimo sjajnu priliku za razvoj karijere svim entuzijastima koji imaju na raspolaganju slobodnog vremena da se pridruže našem DevOps razvojnom centru. Tokom programa u trajanju od dva meseca polaznici imaju priliku da sa našim timovima
-                        </p>
-                        <div class="text-left partners-more mt-auto pb-4 pr-5 position-absolute">
-                            <p class="partners-more-1 m-0">John Doe</p>
-                            <p>General Manager, Visa</p>
-                        </div>
-                    </div>
-                </div>
-        </div>
-    </div>
-</section><section class="small-section">
+<section class="small-section">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-10 pl-0">
@@ -715,7 +626,6 @@
                 </div>
             </div>
             <nav class="col-12 col-md-2 d-none">
-                    <a class="" href="#">Početak</a><br/>
                     <a class="" href="#">O nama</a><br/>
                     <a class="" href="#">Usluge</a><br/>
                     <a class="text-cloud" href="#">Edukcaija</a><br/>
