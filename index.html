@@ -24,18 +24,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-<div id="cookie-popup" class="border-bottom border-secondary d-none"
-     style="position: fixed; width: 100%; background: whitesmoke;">
+<div id="cookie-popup" class="border border-secondary">
     <div class="container">
         <div class="row">This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
         </div>
-        <div class="row">We won't track your information when you visit our site. But in order to comply with
-            your
-            preferences, we'll have to use just one tiny cookie so that you're not asked to make this choice again.
-        </div>
         <div class="row">
-            <div class="col-2 btn btn-secondary ml-auto mr-2" id="cookie-accept">Accept</div>
-            <div class="col-2 btn btn-outline-secondary" id="cookie-decline">Decline</div>
+            <div class="col-2 btn blue-gradient btn-outline-0 border-0 text-white ml-auto mr-2" id="cookie-accept" onclick="acceptGDPR()">Accept</div>
+            <div class="col-2 btn btn-secondary text-white" id="cookie-decline" onclick="declineGDPR()">Decline</div>
         </div>
     </div>
 </div><header class="text-white">
