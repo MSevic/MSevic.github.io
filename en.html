@@ -108,7 +108,7 @@
             </div>
         </div>
     </div>
-    <div class="position-absolute text-black header-lang-select d-none d-md-block light">
+    <div class="position-fixed text-black header-lang-select d-none d-md-block light">
         <a href="/en">
             <div class="eng-select d-flex text-center mx-1 mt-1 opacity-50"><span
                     class="mx-auto mt-2 text-black">EN</span></div>
@@ -159,17 +159,7 @@
         </div>
     </div>
 </section>
-<section class="small-section">
-    <div class="container text-center">
-        <p class="text-cloud">WHO WE ARE</p>
-        <h2 class=" h2">We are a global IT consulting and engineering company headquartered in Belgrade with
-regional offices and a network of engineering experts in Ljubljana and Amsterdam.</h2>
-        <p>Cloud Native d.o.o. brings together leading technology experts and technology consultants skilled in hardware and software engineering, artificial intelligence, data science, edge, 5G and hybrid cloud platforms on mission to provide superior service to our clients who want to accelerate their business through digital transformation and development of new digital products and services.</p>
-        
-        <h2 class=" h2"></h2>
-        <p></p>
-    </div>
-</section><section class="">
+<section class="">
     <div class="container text-center">
         <p class="text-cloud">WHAT WE DO</p>
         <h2 class=" h2">We support companies on the way to their digital transformation with one purpose: to use the full potential of cloud technologies and improve their digital products and service.</h2>
@@ -288,42 +278,7 @@ regional offices and a network of engineering experts in Ljubljana and Amsterdam
                 </div>
         </div>
     </div>
-</section><section class="small-section">
-    <div class="container magic-glow text-center p-5 mb-4">
-        <h2>Accelerate adoption of orchestration technology</h2>
-        <p class="font-weight-bold">Please enter your email address, and we will respond as soon as possible. </p>
-        <div class="form-inline text-center">
-            <form id="razgovor-signup-form-1" class="w-100">
-                <input name="email" id="razgovor-email-1" required type="email"
-                       placeholder="Your email address" class="form-control razgovor-email-input ml-auto mr-2">
-                <input type="submit" value="Send →" class="form-control mr-auto razgovor-submit-input">
-            </form>
-        </div>
-    </div>
-    <script>
-        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:5000&#x2F;razgovor?lang&#x3D;en"
-                $("#razgovor-signup-form-1").on("submit", function (event) {
-                    event.preventDefault()
-                    let email = $("#razgovor-email").val()
-                    $.ajax({
-                        url: journeySignupFormUrl,
-                        method: "POST",
-                        crossdomain: true,
-                        dataType: "json",
-                        data: {
-                            "email": email
-                        },
-                        success: function (data, status) {
-                            console.log(data, status)
-                        },
-                        error: function (data, status) {
-                            console.error(data, status)
-                        }
-                    });
-                });
-    </script>
-</section>
-<section>
+</section><section>
     <div class="container">
         <p class="text-cloud">PROJECT APPROACH</p>
         <div class="row mx-0">
@@ -527,7 +482,42 @@ regional offices and a network of engineering experts in Ljubljana and Amsterdam
                 </div>
         </div>
     </div>
+</section><section class="small-section">
+    <div class="container magic-glow text-center p-5 mb-4">
+        <h2>Ubrzajte usvajanje tehnologije za orkestraciju</h2>
+        <p class="font-weight-bold">Molimo vas da u polje unesete Vašu email adresu, odgovaramo u najkraćem mogućem roku</p>
+        <div class="form-inline text-center">
+            <form id="razgovor-signup-form-1" class="w-100">
+                <input name="email" id="razgovor-email-1" required type="email"
+                       placeholder="Vaša E-mail adresa" class="form-control razgovor-email-input ml-auto mr-2">
+                <input type="submit" value="Pošalji →" class="form-control mr-auto razgovor-submit-input">
+            </form>
+        </div>
+    </div>
+    <script>
+        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:5000&#x2F;razgovor"
+                $("#razgovor-signup-form-1").on("submit", function (event) {
+                    event.preventDefault()
+                    let email = $("#razgovor-email").val()
+                    $.ajax({
+                        url: journeySignupFormUrl,
+                        method: "POST",
+                        crossdomain: true,
+                        dataType: "json",
+                        data: {
+                            "email": email
+                        },
+                        success: function (data, status) {
+                            console.log(data, status)
+                        },
+                        error: function (data, status) {
+                            console.error(data, status)
+                        }
+                    });
+                });
+    </script>
 </section>
+
 </main>
 <style>
     a:hover{
