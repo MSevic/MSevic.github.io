@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="">
 <!DOCTYPE html>
-<html lang="sr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <link rel="preload" as="font" href="/fonts/LabGrotesque-Regular.woff" type="font/woff2" crossorigin="anonymous">
@@ -26,13 +26,13 @@
 <body>
 <div id="cookie-popup" class="border border-secondary d-none">
     <div class="container p-3">
-        <div class="row mb-2">This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
+        <div class="row mb-2">This website uses cookies to function properly and to make further improvements with the aim of improving the user experience. By clicking &quot;I agree&quot;, you agree to the use of cookies.
         </div>
         <div class="row">
             <div class="col-4 col-md-3 btn blue-gradient btn-outline-0 border-0 text-white ml-auto mr-2" id="cookie-accept" onclick="acceptGDPR()">
-                Prihvatam</div>
+                I Accept</div>
             <div class="col-4 col-md-3 btn btn-secondary text-white" id="cookie-decline" onclick="declineGDPR()">
-                Odbijam</div>
+                I Decline</div>
         </div>
     </div>
 </div><header class="text-white">
@@ -59,12 +59,12 @@
             <div class="d-flex">
                 <div class="mx-auto d-flex">
                     <a href="/en/contact">
-                        <spann class="eng-select-mobile d-flex mb-1 text-center"><span
+                        <spann class="eng-select-mobile d-flex mb-1 text-centerfilter-gray"><span
                                 class="m-auto text-black font-weight-bold">EN</span>
                         </spann>
                     </a>
                     <a href="/sr/kontakt">
-                    <span class="srb-select-mobile d-flex mt-1 text-center filter-gray">
+                    <span class="srb-select-mobile d-flex mt-1 text-center ">
                         <span class="m-auto text-black flip font-weight-bold">SRB</span>
                     </span>
                     </a>
@@ -73,9 +73,9 @@
             <div class="w-100 d-flex">
                 <div class="special-link px-5 py-3 my-3 mx-auto">
                     <a class=""
-                       href="#">
+                       href="/en/contact">
                         <div class="">
-                            Kontakt ➜
+                            Contact ➜
                         </div>
                     </a>
                 </div>
@@ -98,9 +98,9 @@
             <div class="d-md-block d-none col-5 ml-auto my-auto text-right d-none d-md-block">
             </div>
             <a class="col-2 d-none ml-0 special-link d-md-flex justify-content-center align-items-center p-0"
-               href="#">
+               href="/en/contact">
                 <div class="">
-                    Kontakt ➜
+                    Contact ➜
                 </div>
             </a>
             <div class="col-6 d-md-none text-right d-flex">
@@ -110,11 +110,11 @@
     </div>
     <div class="position-fixed text-black header-lang-select d-none d-md-block light">
         <a href="/en/contact">
-            <div class="eng-select d-flex text-center mx-1 mt-1 "><span
+            <div class="eng-select d-flex text-center mx-1 mt-1 opacity-50"><span
                     class="mx-auto mt-2 text-black">EN</span></div>
         </a>
         <a href="/sr/kontakt">
-            <div class="srb-select d-flex text-center m-1 opacity-50 "><span
+            <div class="srb-select d-flex text-center m-1  "><span
                     class="m-auto text-black">SRB</span></div>
         </a>
     </div>
@@ -125,21 +125,21 @@
 <section>
     <div class="container px-0">
         <div class="w-100 my-3 text-center">
-            <h2 class="h2">Kontaktirajte nas</h2>
-            <p>Tu smo da pomognemo. Popunite ovaj formular i mi cemo vam se brzo javiti.</p>
+            <h2 class="h2">Get in touch with us</h2>
+            <p>We are here to help. Fill out this form and we will get back to you quickly.</p>
         </div>
         <div class="row">
             <div class="col-12 col-md-6 pr-0 pl-3">
                 <div class="h-100 p-4 mr-4 contact-card">
                     <img class="icon pb-1" src="/img/icons/people.svg">
-                    <h4 class="text-cloud h4 pb-0 mb-0">Partnerski pristup</h4>
-                    <p class="pb-1">Potreban Vam je pouzda partner za novi Kubernetes - projekat stojimo vam na raspolaganju.</p>
+                    <h4 class="text-cloud h4 pb-0 mb-0">Partnership approach</h4>
+                    <p class="pb-1">You need a reliable partner for the new Kubernetes project - we are at your disposal.</p>
                     <img class="icon pb-1" src="/img/icons/scale.svg">
-                    <h4 class="text-cloud h4 pb-0 mb-0">Poslovna saradnja</h4>
-                    <p class="pb-1">Ako imate ideju za poslovnu saradnju sa nama uvek smo zainteresovani.</p>
+                    <h4 class="text-cloud h4 pb-0 mb-0">Business cooperation</h4>
+                    <p class="pb-1">If you have an idea for business cooperation with us, we are always interested.</p>
                     <img class="icon pb-1" src="/img/icons/breefcase.svg">
-                    <h4 class="text-cloud pb-0 h4 mb-0">Zaposlenje</h4>
-                    <p class="pb-1">Potreban Vam je pouzda partner za novi Kubernetes - projekat stojimo vam na raspolaganju.</p>
+                    <h4 class="text-cloud pb-0 h4 mb-0">Employment</h4>
+                    <p class="pb-1">You need a reliable partner for the new Kubernetes project - we are at your disposal.</p>
                 </div>
             </div>
 
@@ -151,11 +151,11 @@
                             <div class="row">
                                 <div class="col-12 col-md-6 mb-3">
                                     <input class="form-control contact-input" type="text" name="name" required
-                                           placeholder="Ime">
+                                           placeholder="First Name">
                                 </div>
                                 <div class="col-12 col-md-6 mb-3">
                                     <input class="form-control contact-input" type="text" name="surname" required
-                                           placeholder="Prezime">
+                                           placeholder="Last Name">
                                 </div>
                             </div>
                             <div class="row">
@@ -164,28 +164,28 @@
                                            placeholder="Email">
                                 </div>
                                 <div class="col-12 col-md-6 mb-3">
-                                    <input class="form-control contact-input" type="tel" name="tel" placeholder="broj telefona">
+                                    <input class="form-control contact-input" type="tel" name="tel" placeholder="Telephone">
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 col-md-6 mb-3 d-flex">
                                     <input class="form-control contact-input mt-auto" type="text" name="companyName"
-                                           placeholder="Kompanija">
+                                           placeholder="Company Name">
                                 </div>
                                 <div class="col-12 col-md-6 mb-3 position-relative">
-                                    <label for="partnership">Tip saradnje</label>
+                                    <label for="partnership">Partner type</label>
                                     <select name="partnership" class="form-control contact-input">
-                                            <option value="0">Odaberi</option>
+                                            <option value="0">Please select</option>
                                             <option value="1">Partener</option>
-                                            <option value="1">Poslovna saradnja</option>
-                                            <option value="1">Zaposlenje</option>
+                                            <option value="1">Bussiness cooperation</option>
+                                            <option value="1">Employment</option>
                                     </select>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-12 mb-3">
                                 <textarea class="form-control contact-input " name="komentar" cols="4"
-                                          placeholder="Dodatno..."></textarea>
+                                          placeholder="Current opportunity"></textarea>
                                 </div>
                             </div>
                             <div class="d-flex w-100">
@@ -215,7 +215,7 @@
                         </div>
                     </div>
                     <p class="mb-5">
-                        Kompanijama obezbeđujemo profesionalne usluge za optimalno korištenje moderne tehologije bazirane na mikroservisima uz visok stepen DevOps automatizacije u kombinaciji sa strateškim konsaltingom, planiranjem, razvojem rešenja, integracijom, podešavanjima, implementacijama  okruženja, migracijama, održavanjem, podrškom i sveobuhvatnom obukom.
+                        We provide professional services for optimal use of modern technology based on microservices, with a high degree of DevOps automation, combined with strategic consulting, planning, solution development, integration, settings, environment implementations, migrations, maintenance, support, and comprehensive training for companies that want to be agile.
                     </p>
                     <div class="text-left mt-auto pb-4 pr-5">
                         <p class="partners-more-1 m-0">Cloud Native d.o.o.</p>
@@ -234,7 +234,7 @@
                         </div>
                     </div>
                     <p class="mb-5">
-                        Tehnološka kompanija koja nudi poslovna rešenja na temelju tehnologija otvorenoga koda za korporativne klijente na globalnom tržištu. Softergee usluge obuhvataju celokupni poslovno - tehnološki ciklus, počevši od savetovanja pa do razvoja, integracije, održavanja i obrazovanja. Ponuda uključuje vlastita i partnerska rešenja drugih tehnoloških kompanija kao što su: Red Hat, EDB i Suse.
+                        A technology company that offers business solutions based on open-source technologies for corporate clients in the global market. Softergee services include the entire business-technology cycle, starting with consulting and ending with development, integration, maintenance, and education. The offer includes own and partner solutions from other technology companies such as: Red Hat, EDB and Suse.
                     </p>
                     <div class="text-left mt-auto pb-4 pr-5">
                         <p class="partners-more-1 m-0">Softergee, IT engineering, Ltd.</p>
@@ -248,7 +248,7 @@
                     <a class="" href="#">Usluge</a><br/>
                     <a class="text-cloud" href="#">Edukcaija</a><br/>
                     <a class="" href="#">Blog</a><br/>
-                    <a class="" href="#">Kontakt</a><br/>
+                    <a class="" href="/en/contact">Contact</a><br/>
             </nav>
         </div>
         <div class="row pt-2">

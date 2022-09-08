@@ -26,13 +26,13 @@
 <body>
 <div id="cookie-popup" class="border border-secondary d-none">
     <div class="container p-3">
-        <div class="row mb-2">This website stores cookies on your computer. These cookies are used to improve your website experience and provide more personalized services to you, both on this website and through other media. To find out more about the cookies we use, see our Privacy Policy.
+        <div class="row mb-2">This website uses cookies to function properly and to make further improvements with the aim of improving the user experience. By clicking &quot;I agree&quot;, you agree to the use of cookies.
         </div>
         <div class="row">
             <div class="col-4 col-md-3 btn blue-gradient btn-outline-0 border-0 text-white ml-auto mr-2" id="cookie-accept" onclick="acceptGDPR()">
-                Accept</div>
+                I Accept</div>
             <div class="col-4 col-md-3 btn btn-secondary text-white" id="cookie-decline" onclick="declineGDPR()">
-                Decline</div>
+                I Decline</div>
         </div>
     </div>
 </div><header class="text-white">
@@ -59,12 +59,12 @@
             <div class="d-flex">
                 <div class="mx-auto d-flex">
                     <a href="/en">
-                        <spann class="eng-select-mobile d-flex mb-1 text-center"><span
+                        <spann class="eng-select-mobile d-flex mb-1 text-centerfilter-gray"><span
                                 class="m-auto text-black font-weight-bold">EN</span>
                         </spann>
                     </a>
                     <a href="/">
-                    <span class="srb-select-mobile d-flex mt-1 text-center filter-gray">
+                    <span class="srb-select-mobile d-flex mt-1 text-center ">
                         <span class="m-auto text-black flip font-weight-bold">SRB</span>
                     </span>
                     </a>
@@ -484,18 +484,18 @@
     </div>
 </section><section class="small-section">
     <div class="container magic-glow text-center p-5 mb-4">
-        <h2>Ubrzajte usvajanje tehnologije za orkestraciju</h2>
-        <p class="font-weight-bold">Molimo vas da u polje unesete Vašu email adresu, odgovaramo u najkraćem mogućem roku</p>
+        <h2>Accelerate adoption of orchestration technology</h2>
+        <p class="font-weight-bold">Please enter your email address, and we will respond as soon as possible. </p>
         <div class="form-inline text-center">
             <form id="razgovor-signup-form-1" class="w-100">
                 <input name="email" id="razgovor-email-1" required type="email"
-                       placeholder="Vaša E-mail adresa" class="form-control razgovor-email-input ml-auto mr-2">
-                <input type="submit" value="Pošalji →" class="form-control mr-auto razgovor-submit-input">
+                       placeholder="Your email address" class="form-control razgovor-email-input ml-auto mr-2">
+                <input type="submit" value="Send →" class="form-control mr-auto razgovor-submit-input">
             </form>
         </div>
     </div>
     <script>
-        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:5000&#x2F;razgovor"
+        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:5000&#x2F;razgovor?lang&#x3D;en"
                 $("#razgovor-signup-form-1").on("submit", function (event) {
                     event.preventDefault()
                     let email = $("#razgovor-email").val()
