@@ -415,14 +415,15 @@
                 <h2 class=" h2">Prijavite se i naučite kako da pravite i pokrećete aplikacije u cloud-native okruženju, kroz seriju od 4 besplatne praktične radionice bazirane na Red Hat OpenShift platformi.</h2>
             </div>
             <div class="col-12 col-md-5 my-auto py-4">
-                <form class="p-4 h-100 rounded light" id="journey-signup-form">
+                <form class="p-4 h-100 rounded light" id="journey-signup-form" method="POST">
                     <label class="h6 mb-3 font-weight-bold">Prijavite se</label>
-                    <input type="text" name="journey-name" id="journey-name" required class="form-control mb-3 p-2" placeholder="Ime i Prezime">
-                    <input type="email" name="journey-email" id="journey-email" required class="form-control mb-4 p-2" placeholder="Email">
+                    <input type="text" name="journey-name" id="journey-name" required class="form-control mb-3 p-2" placeholder="Ime i Prezime" autocomplete="name">
+                    <input type="email" name="journey-email" id="journey-email" required class="form-control mb-4 p-2" placeholder="Email" autocomplete="email">
                     <input type="submit" class="form-control blue-gradient mt-2 text-white" value="Prijava →">
                 </form>
                 <script>
-                    var journeySignupFormUrl = "http://localhost:9000/?form=trening"
+                    var journeySignupFormUrl = "https://forms.cloud-native.rs/?form=trening"
+                    var journeyLang = "sr"
                 </script>
             </div>
         </div>
@@ -534,36 +535,36 @@
         <h2>Ubrzajte usvajanje tehnologije za orkestraciju</h2>
         <p class="font-weight-bold">Molimo vas da u polje unesete Vašu email adresu, odgovaramo u najkraćem mogućem roku</p>
         <div class="form-inline text-center">
-            <form id="razgovor-signup-form-1" class="w-100">
+            <form id="razgovor-signup-form-1" class="w-100" method="POST">
                 <input name="email" id="razgovor-email-1" required type="email"
-                       placeholder="Vaša E-mail adresa" class="form-control razgovor-email-input ml-auto mr-2">
-                <input type="submit" value="Pošalji →" class="form-control mr-auto razgovor-submit-input">
+                       placeholder="Vaša E-mail adresa" class="form-control razgovor-email-input ml-auto mr-2"
+                       autocomplete="email">
+                <input type="submit" id="razgovor-submit" value="Pošalji →" class="form-control mr-auto razgovor-submit-input">
             </form>
         </div>
     </div>
-    <script>
-        var razgovorSignupFormUrl = "http:&#x2F;&#x2F;localhost:9000&#x2F;?form&#x3D;razgovor"
-                $("#razgovor-signup-form-1").on("submit", function (event) {
-                    event.preventDefault()
-                    let email = $("#razgovor-email").val()
-                    $.ajax({
-                        url: journeySignupFormUrl,
-                        method: "POST",
-                        crossdomain: true,
-                        dataType: "json",
-                        data: {
-                            "email": email
-                        },
-                        success: function (data, status) {
-                            console.log(data, status)
-                        },
-                        error: function (data, status) {
-                            console.error(data, status)
-                        }
-                    });
-                });
-    </script>
 </section>
+<script>
+    $("#razgovor-signup-form-1").submit(function (event) {
+        event.preventDefault()
+        let email = $("#razgovor-email-1").val()
+        $.ajax({
+            url: "https://forms.cloud-native.rs/?form=talk",
+            method: "POST",
+            crossdomain: true,
+            dataType: "json",
+            data: {
+                "email": email
+            },
+            success: function (data, status) {
+                $("#razgovor-signup-form-1")[0].reset();
+            },
+            error: function (data, status) {
+                console.error(data, status)
+            }
+        });
+    });
+</script>
 <section class="small-section">
     <div class="container blog-top-container">
         <p class="text-cloud">VESTI I BLOG</p>
